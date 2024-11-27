@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.homepage {
+  background-image: url("src/pexels-image1.jpg");
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
