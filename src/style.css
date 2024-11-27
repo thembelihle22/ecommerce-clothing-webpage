@@ -16,7 +16,8 @@ li a {
   text-decoration: none;
   color: black;
 }
-h1 {
+h1,
+h2 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-size: 95px;
@@ -31,6 +32,7 @@ p {
 button {
   border-radius: 20px;
   border: none;
+  font-family: "Poppins", serif;
 }
 .homepage {
   background-image: url("pexels-image1.jpg");
@@ -44,8 +46,18 @@ button {
   padding: 5px 15px;
   font-size: 18px;
 }
-.mainBtn {
+.mainBtn,
+.aboutBtn {
   padding: 15px 25px;
-  margin: 50px;
+  margin: 30px;
   font-size: 20px;
+}
+.aboutpage {
+  margin-top: 100px;
+}
+.aboutImg {
+  width: 400px;
+}
+.aboutParagraph {
+  margin-top: 250px;
 }
