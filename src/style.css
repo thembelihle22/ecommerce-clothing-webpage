@@ -17,7 +17,9 @@ li a {
   color: black;
 }
 h1,
-h2 {
+h2,
+h3,
+h4 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-size: 95px;
@@ -47,8 +49,9 @@ button {
   font-size: 18px;
 }
 .mainBtn,
-.aboutBtn {
-  padding: 15px 25px;
+.aboutBtn,
+.indexBtn {
+  padding: 15px 35px;
   margin: 30px;
   font-size: 20px;
 }
@@ -60,4 +63,8 @@ button {
 }
 .aboutParagraph {
   margin-top: 250px;
+}
+.collectionpage {
+  background-color: black;
+  color: white;
 }
