@@ -24,6 +24,7 @@
       src="https://kit.fontawesome.com/704d7bd738.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Document</title>
   </head>
@@ -39,7 +40,7 @@
             <li><a href="#aboutpg">About</a></li>
             <li><a href="#collectionpg">Our Collection</a></li>
             <li><a href="#sellerpg">Best Sellers</a></li>
-            <li><button class="navBtn" id="navBtn">Sign Up</button></li>
+            <li><button class="navBtn">Sign Up</button></li>
           </ul>
         </nav>
       </header>
@@ -50,18 +51,17 @@
 
         <button class="mainBtn">Shop a look</button>
       </div>
+
+      <section class="icon text-center">
+        <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+        <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+        <a href="#"> <i class="fa-brands fa-pinterest"></i></a>
+        <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+      </section>
     </main>
-
-    <section class="icon text-center mt-5">
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-pinterest"></i>
-    </section>
-
     <section class="container aboutpage" id="aboutpg">
       <div class="row">
         <div class="col">
-          <h2>About us</h2>
           <img
             src="src/pexels-image2.jpg"
             alt=""
@@ -69,12 +69,13 @@
           />
         </div>
         <div class="col">
+          <h2>Our Story</h2>
           <p class="aboutParagraph">
             Fine Collectionnis a store for every Girl, Boy, Woman or Man.
             <br />
             At Fine Collection we are a fashion retail store. We have some of
             the finest desiners who create some of the most unique pieces and
-            from the best quality materials sourced from all around the world.
+            from the best quality materials, sourced from all around the world.
             <br />
             At Fine Collection we are a fashion retail store. We have some of
             the finest desiners who create some of the most unique pieces and
@@ -87,17 +88,19 @@
 
     <section class="collectionpage mt-5 text-center" id="collectionpg">
       <h3>Our Collections</h3>
-      <button class="indexBtn">Dresses</button>
-      <button class="indexBtn">Tops</button>
-      <button class="indexBtn">Bottoms</button>
-      <button class="indexBtn">Shoes</button>
-      <button class="indexBtn">Jewellery</button>
-      <button class="indexBtn">Other</button>
+      <div class="indexBtn">
+        <button class="indexBtn">Dresses</button>
+        <button class="indexBtn">Tops</button>
+        <button class="indexBtn">Bottoms</button>
+        <button class="indexBtn">Shoes</button>
+        <button class="indexBtn">Jewellery</button>
+        <button class="indexBtn">Other</button>
+      </div>
     </section>
 
     <section class="bestSellerPage text-center mt-5" id="sellerpg">
-      <h4>Best Sellers</h4>
-      <div class="mt-5">
+      <h4 class="fourth-headline">Best Sellers</h4>
+      <div class="seller-images mt-5">
         <img src="src/pexels-image3.jpg" alt="" width="200px" />
         <img src="src/pexels-image4.jpg" alt="" width="200px" />
         <img src="src/pexels-image5.jpg" alt="" width="200px" />

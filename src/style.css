@@ -15,6 +15,10 @@ nav li {
 li a {
   text-decoration: none;
   color: black;
+  transition: 200ms ease-in;
+}
+li a:hover {
+  text-decoration: underline;
 }
 h1,
 h2,
@@ -22,7 +26,12 @@ h3,
 h4 {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
+  font-size: 60px;
+}
+h1,
+.storeName {
   font-size: 95px;
+  visibility: hidden;
 }
 p {
   font-family: "Poppins", serif;
@@ -54,6 +63,13 @@ button {
 .navBtn {
   padding: 5px 15px;
   font-size: 18px;
+  background-color: black;
+  color: white;
+  box-shadow: 2px 4px 6px black;
+  transition: transform 0.3s ease-in-out;
+}
+.navBtn:hover {
+  transform: scale(1.2);
 }
 .mainBtn,
 .aboutBtn,
@@ -61,22 +77,32 @@ button {
   padding: 15px 35px;
   margin: 30px;
   font-size: 20px;
+  box-shadow: 2px 4px 6px black;
+  transition: transform 0.3s ease-in-out;
+}
+.mainBtn,
+.aboutBtn:hover {
+  transform: scale(1.2);
+}
+.aboutBtn {
+  color: white;
+  background-color: black;
 }
 .icon i {
   padding: 15px;
-  font-size: 45px;
-  background-color: black;
-  color: white;
+  margin: 40px;
+  font-size: 2em;
+  color: black;
 }
 .aboutpage {
   margin-top: 40px;
 }
 .aboutImg {
-  width: 400px;
+  width: 300px;
+
+  border-radius: 10px;
 }
-.aboutParagraph {
-  margin-top: 250px;
-}
+
 .collectionpage {
   background-color: black;
   color: white;
@@ -84,5 +110,4 @@ button {
 .footer {
   background-color: black;
   color: white;
-  margin-bottom: 15px;
 }
