@@ -80,7 +80,9 @@ button {
   box-shadow: 2px 4px 6px black;
   transition: transform 0.3s ease-in-out;
 }
-.mainBtn,
+.mainBtn:hover {
+  transform: scale(1.2);
+}
 .aboutBtn:hover {
   transform: scale(1.2);
 }
@@ -99,15 +101,32 @@ button {
 }
 .aboutImg {
   width: 300px;
-
   border-radius: 10px;
 }
-
+.collection-btn {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.sale-paragraph {
+  font-size: 40px;
+  padding: 40px 20px;
+  background-color: white;
+  color: black;
+}
 .collectionpage {
   background-color: black;
   color: white;
+  padding-bottom: 15px;
+}
+.bestSellerPage {
+  padding-bottom: 95px;
 }
 .footer {
   background-color: black;
   color: white;
+  padding-bottom: 105px;
 }
