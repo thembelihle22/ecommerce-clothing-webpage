@@ -9,4 +9,7 @@ ScrollReveal().reveal(".storeName, .fourth-headline, .about-sec1", {
   origin: "left",
 });
 ScrollReveal().reveal(".icon, .seller-images, .indexBtn", { delay: 200 });
-ScrollReveal().reveal(".about-sec2", { delay: 200, origin: "right" });
+ScrollReveal().reveal(".about-sec2, .sale-paragraph", {
+  delay: 200,
+  origin: "right",
+});

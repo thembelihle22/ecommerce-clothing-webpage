@@ -130,3 +130,18 @@ button {
   color: white;
   padding-bottom: 105px;
 }
+@media (max-width: 800px) {
+  h1 {
+    font-size: 50px;
+  }
+  .homepage {
+    padding: 55px;
+  }
+  .icon {
+    padding: 5px;
+    font-size: 6px;
+  }
+  .aboutpage {
+    margin-top: 15px;
+  }
+}
